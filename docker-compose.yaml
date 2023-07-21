@@ -1,0 +1,7 @@
+version: "3"
+services:
+  secondsquare: 
+    image: prathiba85/secondsquare
+    container_name: squareFinder
+    environment:
+      - NUMBER=5
