@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bookflight-Module" duration-ms="149972" started-at="2023-07-27T06:05:43Z" finished-at="2023-07-27T06:08:13Z">
+    <groups>
+    </groups>
+    <test name="Test_for 2" duration-ms="66244" started-at="2023-07-27T06:05:43Z" finished-at="2023-07-27T06:06:50Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.newtours.tests.BookFlightTest@520a3426]" name="setupDriver" is-config="true" duration-ms="25483" started-at="2023-07-27T06:05:43Z" finished-at="2023-07-27T06:06:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c49835d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="setupParameter(java.lang.String, java.lang.String)[pri:0, instance:com.newtours.tests.BookFlightTest@520a3426]" name="setupParameter" is-config="true" duration-ms="17" started-at="2023-07-27T06:06:09Z" depends-on-methods="tests.BaseTest.setupDriver" finished-at="2023-07-27T06:06:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameter -->
+        <test-method status="PASS" signature="TC01_RegistrationPageTest()[pri:1, instance:com.newtours.tests.BookFlightTest@520a3426]" name="TC01_RegistrationPageTest" duration-ms="32537" started-at="2023-07-27T06:06:09Z" finished-at="2023-07-27T06:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_RegistrationPageTest -->
+        <test-method status="PASS" signature="TC02_RegistrationConfirmationPage()[pri:2, instance:com.newtours.tests.BookFlightTest@520a3426]" name="TC02_RegistrationConfirmationPage" duration-ms="731" started-at="2023-07-27T06:06:42Z" finished-at="2023-07-27T06:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_RegistrationConfirmationPage -->
+        <test-method status="PASS" signature="TC03_FlightDetailsPage()[pri:3, instance:com.newtours.tests.BookFlightTest@520a3426]" name="TC03_FlightDetailsPage" duration-ms="5963" started-at="2023-07-27T06:06:43Z" finished-at="2023-07-27T06:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_FlightDetailsPage -->
+        <test-method status="PASS" signature="TC04_printConfirmation()[pri:4, instance:com.newtours.tests.BookFlightTest@520a3426]" name="TC04_printConfirmation" duration-ms="1035" started-at="2023-07-27T06:06:48Z" finished-at="2023-07-27T06:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_printConfirmation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.newtours.tests.BookFlightTest@520a3426]" name="teardown" is-config="true" duration-ms="79" started-at="2023-07-27T06:06:50Z" finished-at="2023-07-27T06:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- Test_for 2 -->
+    <test name="TesT for 6" duration-ms="109349" started-at="2023-07-27T06:05:43Z" finished-at="2023-07-27T06:07:33Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.newtours.tests.BookFlightTest@2b552920]" name="setupDriver" is-config="true" duration-ms="68601" started-at="2023-07-27T06:05:43Z" finished-at="2023-07-27T06:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e853265]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="setupParameter(java.lang.String, java.lang.String)[pri:0, instance:com.newtours.tests.BookFlightTest@2b552920]" name="setupParameter" is-config="true" duration-ms="11" started-at="2023-07-27T06:06:52Z" depends-on-methods="tests.BaseTest.setupDriver" finished-at="2023-07-27T06:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$2338 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameter -->
+        <test-method status="PASS" signature="TC01_RegistrationPageTest()[pri:1, instance:com.newtours.tests.BookFlightTest@2b552920]" name="TC01_RegistrationPageTest" duration-ms="29583" started-at="2023-07-27T06:06:52Z" finished-at="2023-07-27T06:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_RegistrationPageTest -->
+        <test-method status="PASS" signature="TC02_RegistrationConfirmationPage()[pri:2, instance:com.newtours.tests.BookFlightTest@2b552920]" name="TC02_RegistrationConfirmationPage" duration-ms="1022" started-at="2023-07-27T06:07:22Z" finished-at="2023-07-27T06:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_RegistrationConfirmationPage -->
+        <test-method status="PASS" signature="TC03_FlightDetailsPage()[pri:3, instance:com.newtours.tests.BookFlightTest@2b552920]" name="TC03_FlightDetailsPage" duration-ms="7842" started-at="2023-07-27T06:07:23Z" finished-at="2023-07-27T06:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_FlightDetailsPage -->
+        <test-method status="PASS" signature="TC04_printConfirmation()[pri:4, instance:com.newtours.tests.BookFlightTest@2b552920]" name="TC04_printConfirmation" duration-ms="2101" started-at="2023-07-27T06:07:31Z" finished-at="2023-07-27T06:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_printConfirmation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.newtours.tests.BookFlightTest@2b552920]" name="teardown" is-config="true" duration-ms="137" started-at="2023-07-27T06:07:33Z" finished-at="2023-07-27T06:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- TesT for 6 -->
+    <test name="TesT for 3" duration-ms="149927" started-at="2023-07-27T06:05:43Z" finished-at="2023-07-27T06:08:13Z">
+      <class name="com.newtours.tests.BookFlightTest">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.newtours.tests.BookFlightTest@3dd4520b]" name="setupDriver" is-config="true" duration-ms="112731" started-at="2023-07-27T06:05:43Z" finished-at="2023-07-27T06:07:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67205a84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="setupParameter(java.lang.String, java.lang.String)[pri:0, instance:com.newtours.tests.BookFlightTest@3dd4520b]" name="setupParameter" is-config="true" duration-ms="7" started-at="2023-07-27T06:07:36Z" depends-on-methods="tests.BaseTest.setupDriver" finished-at="2023-07-27T06:07:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameter -->
+        <test-method status="PASS" signature="TC01_RegistrationPageTest()[pri:1, instance:com.newtours.tests.BookFlightTest@3dd4520b]" name="TC01_RegistrationPageTest" duration-ms="29110" started-at="2023-07-27T06:07:36Z" finished-at="2023-07-27T06:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_RegistrationPageTest -->
+        <test-method status="PASS" signature="TC02_RegistrationConfirmationPage()[pri:2, instance:com.newtours.tests.BookFlightTest@3dd4520b]" name="TC02_RegistrationConfirmationPage" duration-ms="809" started-at="2023-07-27T06:08:05Z" finished-at="2023-07-27T06:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_RegistrationConfirmationPage -->
+        <test-method status="PASS" signature="TC03_FlightDetailsPage()[pri:3, instance:com.newtours.tests.BookFlightTest@3dd4520b]" name="TC03_FlightDetailsPage" duration-ms="6070" started-at="2023-07-27T06:08:06Z" finished-at="2023-07-27T06:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_FlightDetailsPage -->
+        <test-method status="PASS" signature="TC04_printConfirmation()[pri:4, instance:com.newtours.tests.BookFlightTest@3dd4520b]" name="TC04_printConfirmation" duration-ms="1077" started-at="2023-07-27T06:08:12Z" finished-at="2023-07-27T06:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_printConfirmation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.newtours.tests.BookFlightTest@3dd4520b]" name="teardown" is-config="true" duration-ms="80" started-at="2023-07-27T06:08:13Z" finished-at="2023-07-27T06:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </test> <!-- TesT for 3 -->
+  </suite> <!-- Bookflight-Module -->
+</testng-results>

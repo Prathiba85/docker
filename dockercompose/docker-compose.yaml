@@ -16,3 +16,14 @@ services:
       - hub
     environment:
       - HUB_HOST=hub
+  search-module:
+    image: prathiba85/selenium-docker
+    depends_on:
+      - chrome
+      - firefox
+    environment:
+      - BROWSER=chrome
+      - HUB_HOST=hub
+      - MODULE=testng.xml
+    volumes:
+      - ./search-result:/usr/share/udemy/test-output
